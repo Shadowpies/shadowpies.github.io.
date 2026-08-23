@@ -176,6 +176,36 @@ a {
     display: none; /* Chrome, Safari, Opera */
 }
 
+.skills_scr {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transform: translateY(10px);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    height: 200px;
+    width: 700px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+}
+
+.skills_sc {
+    border: 3px solid #ccc;
+    border-radius: 10px;
+    transform: translateY(10px);
+    font-size: 1.2rem;
+    margin-bottom: 1rem;
+    overflow-x: auto;
+    height: 200px;
+    width: 800px;
+    display: flex;
+    flex-direction: row;
+    gap: 10px;
+    background-color: white;
+}
+
 #line_profile {
     border: none;
     border-radius: 24%;
