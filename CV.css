@@ -89,23 +89,53 @@ a {
 }
 
 .header_text:hover {
-    transition: color 0.8s ease;
+    transition: color 0.4s ease;
     color: #ffb56b;
 }
 
 #theme {
+    width: 10rem;
+    height: 3rem;
     position: relative;
     left: -180px;
     bottom: -50px;
-    border-color: #3f3d3d;
-    color: #f4f4f4;
-    background-color: #373636;
-    width: 60px;
-    height: 25px;
-    align-items: center;
+    border: none;
+    border-radius: 30px;
+    background: #333;
+    font-size: 1rem;
+    cursor: pointer;
 
 
+    transition: 0.2s;
 }
+
+#theme::before {
+    content: "☀";
+   
+    display: flex;
+    align-items: center;
+    justify-content: center;
+
+    width: 26px;
+    height: 26px;
+
+    border-radius: 50%;
+    background: white;
+
+    transform: translateX(2px);
+
+    transition: 0.3s;
+}
+
+body.light #theme {
+    background: var(--light_background);
+}
+
+body.light #theme::before {
+    content: "☀";
+    transform: translateX(32px);
+}
+
 
 .left_side {
     width: 500px;
