@@ -1,14 +1,14 @@
 /* Reset & Base Styles */
 
 :root {
-    --background: #2E2E3A;
-    --primary_color: #9067C6;
-    --secdary_color: #ffb56b;
+    --background: #003049;
+    --primary_color: #ccc;
+    --secdary_color: #669bbc;
 
 
-    --light_background: #c6c2c2;
-    --light_secdary: #d17b24;;
-    --light_primary: #533777;
+    --light_background: #669bbc;
+    --light_secdary: #003049;;
+    --light_primary: #131212;
 }
 
 
@@ -58,6 +58,16 @@ h1, h2, h3, h4, h5, h6 {
     font-weight: 600;
     line-height: 1.2;
 }
+h1:hover, h2:hover, h3:hover, h4:hover, h5:hover, h6:hover{
+    transition: color 0.4s ease;
+    color: var(--secdary_color);
+}
+
+h1.light:hover, h2.light:hover, h3.light:hover, h4.light:hover, h5.light:hover, h6.light:hover{
+    transition: color 0.4s ease;
+    color: var(--light_secdary);
+}
+
 
 a {
     color: #0066cc;
@@ -90,8 +100,14 @@ a {
 
 .header_text:hover {
     transition: color 0.4s ease;
-    color: #ffb56b;
+    color: var(--secdary_color);
 }
+
+.header_text.light:hover {
+    transition: color 0.4s ease;
+    color: var(--light_secdary);
+}
+
 
 #theme {
     width: 10rem;
