@@ -159,9 +159,9 @@ body.light #theme::before {
     text-wrap: nowrap;
     justify-content: center;
     padding: 1rem;
-    background-image: linear-gradient(to bottom, #BBB8B2, #F26419);
+    background-image: linear-gradient(to bottom, #fdf0d5);
     border-radius: 15px;
-    box-shadow: 10px 4px 60px rgb(255, 52, 52);
+    box-shadow: 10px 4px 60px #fdf0d5;
     flex-basis: 30%;
     flex-wrap: nowrap;
 }
@@ -293,6 +293,10 @@ body.light #theme::before {
     width: 490px;
     transform: translateX(-70px);
     height: 3px;
-    box-shadow: 0px 2px 0px 0px rgb(0, 162, 27);
+    box-shadow: 0px 2px 0px 0px #c1121f;
     margin: 1rem 0;
+}
+
+.education{
+    
 }
