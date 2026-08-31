@@ -297,6 +297,11 @@ body.light #theme::before {
     margin: 1rem 0;
 }
 
-.education{
-    
+#fuck{
+    transform: translateY(20px);
+    width: 35em;
+    height: auto;
+    text-align: center;
+    text-wrap: wrap;
+    line-height: 2em;
 }
